@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-inter), sans-serif;
+  background: #f7f4ef;
+  color: #151515;
+}
+
+.font-serif {
+  font-family: var(--font-cormorant), Georgia, serif;
+}
